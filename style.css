@@ -16,6 +16,11 @@ li{
     gap: 17px;
 }
 
+li > img{
+    max-width: 50%;
+    max-height: 50%;
+}
+
 .container{
     display: grid;
     grid-template-columns: 1fr 5fr;
@@ -57,11 +62,6 @@ li{
 .navigation{
     display: grid;
     max-width: 45%;
-    gap: 10px;
+    gap: 5px;
     grid-template-rows: repeat(6, minmax(25px, 50px));
-}
-
-li > img{
-    max-width: 50%;
-    max-height: 50%;
 }
