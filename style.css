@@ -13,7 +13,7 @@ li{
     display: flex;
     align-items: center;
     list-style-type: none;
-    gap: 5px;
+    gap: 17px;
 }
 
 .container{
