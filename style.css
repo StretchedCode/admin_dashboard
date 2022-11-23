@@ -38,7 +38,7 @@ li > img{
     grid-template-rows: 1fr 5fr 3fr;
     gap: 20px;
     min-height: 100vh;
-    background-color: #0284c7;
+    background-color: #9f1239;
     color: white;
     font-weight: bolder;
 }
