@@ -151,3 +151,20 @@ li > img{
     font-weight: bolder;
     font-size: larger;
 }
+
+.bottom-headerright{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 5%;
+
+}
+
+.header-button{
+    border-radius: 15px;
+    border-style: none;
+    width: 22%;
+    height: 30%;
+    color: white;
+    background-color: #9f1239;
+}
