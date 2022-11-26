@@ -97,12 +97,16 @@ li > img{
     justify-content: space-between;
     align-items: center;
     margin-left: 20%;
-    margin-right: 15%;
+    margin-right: 13%;
     
 }
 
 .top-headerright > img{
     height: 25px;
+}
+
+.top-headerright > span{
+    font-weight: bolder;
 }
 
 #profile-top-header{
@@ -129,4 +133,21 @@ li > img{
     align-items: center;
     margin-left: 2%;
     gap: 5%;
+}
+
+.welcome-text{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.welcome-text > span{
+    font-weight: bolder;
+    font-size: smaller;
+    margin-bottom: 3%;
+}
+
+.welcome-text > p{
+    font-weight: bolder;
+    font-size: larger;
 }
