@@ -24,7 +24,7 @@ li > img{
 .container{
     display: grid;
     grid-template-columns: 1fr 5fr;
-    grid-template-rows: 1fr 6fr;
+    grid-template-rows: 2fr 5fr;
 
 }
 
@@ -71,4 +71,9 @@ li > img{
     max-width: 45%;
     gap: 5px;
     grid-template-rows: repeat(3, minmax(25px, 50px));
+}
+
+.header{
+    display: grid;
+    grid-template-rows: 2fr 3fr;
 }
