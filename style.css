@@ -24,7 +24,7 @@ li > img{
 .container{
     display: grid;
     grid-template-columns: 1fr 5fr;
-    grid-template-rows: 2fr 5fr;
+    grid-template-rows: 2fr 6fr;
 
 }
 
@@ -75,5 +75,28 @@ li > img{
 
 .header{
     display: grid;
+    margin-left: 3%;
+    margin-right: 3%;
     grid-template-rows: 2fr 3fr;
+    grid-template-columns: 4fr 3fr;
+}
+
+.top-headerleft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2%;
+}
+
+.top-headerleft > img{
+    height: 25px;
+}
+
+#input{
+    height: 40%;
+    width: 90%;
+    border-radius: 15px;
+    background-color: #cbd5e1;
+    border-color: white;
+    border-style: none;
 }
