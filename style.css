@@ -161,10 +161,10 @@ li > img{
 }
 
 .header-button{
-    border-radius: 15px;
+    border-radius: 20px;
     border-style: none;
     width: 22%;
-    height: 30%;
+    height: 32%;
     color: white;
     background-color: #9f1239;
 }
