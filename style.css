@@ -1,3 +1,4 @@
+
 *{
     margin: 0px;
     padding: 0px;
@@ -24,12 +25,17 @@ li > img{
 .container{
     display: grid;
     grid-template-columns: 1fr 5fr;
-    grid-template-rows: 2fr 6fr;
+    grid-template-rows: 2fr 7fr;
 
 }
 
 .main-content{
     grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    background-color: #e2e8f0;
+    box-shadow: 1px 1px 5px gray;
+    height: 100vh;
 }
 
 .sidebar{
@@ -42,6 +48,7 @@ li > img{
     color: white;
     font-weight: bolder;
 }
+
 
 .sidebar > *{
     margin-left: 10px;
@@ -80,6 +87,7 @@ li > img{
     grid-template-rows: 2fr 3fr;
     grid-template-columns: 4fr 3fr;
 }
+
 
 .top-headerleft{
     display: flex;
@@ -167,4 +175,24 @@ li > img{
     height: 32%;
     color: white;
     background-color: #9f1239;
+}
+
+.main-contentleft{
+    margin-left: 2%;
+}
+
+.left-bottom{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 350px));
+    gap: 5%;
+}
+.card{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 8px;
+    border-color: white white white #fcd34d;
+    border-left-width: 5px;
+    background-color: white;
+    min-height: 180px;
+    box-shadow: 1px 1px 5px gray;
 }
