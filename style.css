@@ -223,7 +223,22 @@ li > img{
 }
 
 .card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     color: gray;
     font-size: 80%;
+    min-height: 65%;
 
+}
+
+.card-icons{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 5%;
+}
+
+.card-icons > img{
+    max-height: 20px;
 }
