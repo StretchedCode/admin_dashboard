@@ -181,11 +181,24 @@ li > img{
     margin-left: 2%;
 }
 
+.main-contentright{
+    grid-column: 2 / 3;
+}
+
+.left-top{
+
+    margin-top: 5%;
+    margin-bottom: 2%;
+    font-weight: bolder;
+    font-size: larger;
+}
+
 .left-bottom{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 5%;
+    row-gap: 4%;
+    column-gap: 3%;
 }
 .card{
     border-style: solid;
@@ -196,4 +209,21 @@ li > img{
     background-color: white;
     min-height: 180px;
     box-shadow: 1px 1px 5px rgb(189, 189, 189);
+}
+
+.card > *{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.card-title{
+    font-weight: bolder;
+    margin-top: 8%;
+    margin-bottom: 1%;
+}
+
+.card-content{
+    color: gray;
+    font-size: 80%;
+
 }
